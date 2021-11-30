@@ -53,13 +53,13 @@ app.use(flash());
  	//create the nodemailer
  	var client = nodemailer.createTransport(sgTransport({
         auth: {
-          api_user: 'yzZevfVNStWYZMMG4BY2Jw',
-          api_key: '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'
+          api_user: '_39HxguaSE2KNqZpnuQQKA',
+          api_key: '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'
         }
     }));
  	var mailOptions = {
         to: data.email,
-        from: 'editor@fevermagazine.com',
+        from: 'pr@fynance.capital',
         subject: data.subject,
         text: data.message,
         html: '<b>Hello</b>'
